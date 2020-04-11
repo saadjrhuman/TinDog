@@ -14,8 +14,6 @@ h1 {
 }
 #title {
   background-color: #ff4c68;
-  position: relative;
-  z-index: -1;
 }
 
 .iph-img {
@@ -52,11 +50,11 @@ h1 {
   padding: 0 5%;
 }
 
-.fas {
+.feu {
   color: #ef8172;
   padding-bottom: 1.875rem;
 }
-.fas:hover {
+.feu:hover {
   color: #ff4c68;
 }
 h3 {
@@ -67,7 +65,7 @@ h3 {
 #features {
   padding: 15% 10%;
   background-color: #fff;
-  z-index: 1;
+  position: relative;
 }
 
 p {
@@ -113,4 +111,47 @@ h2 {
 }
 .prc-crd {
   padding: 3% 2%;
+}
+
+/* CTA */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+.cta-h {
+  color: #fff;
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 7%;
+}
+.log {
+  padding: 10px;
+}
+.foot {
+  padding-top: 10px;
+  font-weight: 600;
+}
+/* Media Query */
+
+@media (max-width: 1060px) {
+  #title {
+    text-align: center;
+  }
+  .iph-img {
+    position: static;
+    transform: rotate(0);
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .tstml-txt {
+    font-size: 2rem;
+  }
 }
