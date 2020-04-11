@@ -1,2 +1,2 @@
 # TinDog
-a website i'm making!
+a website i'm making along a course!
